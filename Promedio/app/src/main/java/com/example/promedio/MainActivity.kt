@@ -26,9 +26,9 @@ class MainActivity : AppCompatActivity() {
         var txtResultado = findViewById<TextView>(R.id.LblResultado)
 
         btnCalcular.setOnClickListener{
-            var num1 = txtNum1.text.toString().toDoubleOrNull() ?: 0.0
-            var num2 = txtNum2.text.toString().toDoubleOrNull() ?: 0.0
-            var num3 = txtNum3.text.toString().toDoubleOrNull() ?: 0.0
+            var num1 = (txtNum1.text.toString().toDoubleOrNull() ?: 0.0)/10
+            var num2 = (txtNum2.text.toString().toDoubleOrNull() ?: 0.0)/10
+            var num3 = (txtNum3.text.toString().toDoubleOrNull() ?: 0.0)/10
             var porcentaje1 = (txtPorcentaje1.text.toString().toDoubleOrNull() ?: 0.0)/100
             var porcentaje2 = (txtPorcentaje2.text.toString().toDoubleOrNull() ?: 0.0)/100
             var porcentaje3 = (txtPorcentaje3.text.toString().toDoubleOrNull() ?: 0.0)/100
@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
             if (promedio<4){
                 txtResultado.setText("Lo siento, tu promedio es ${promedio}, asi que debes dar examen")
             }else{
-                txtResultado.setText("Tu promedio es ${promedio}, no das examen")
+                txtResultado.text= String.format("Tu promedio es %.1${promedio}, no das examen")
             }
         }
 
