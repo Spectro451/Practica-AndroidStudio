@@ -11,7 +11,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Formulario de adopcion"
+        android:text="@string/Subtitulo"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="KiwiPets"
+        android:text="@string/Titulo"
         android:textAlignment="center"
         android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
@@ -55,7 +55,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="12dp"
-                android:hint="Nombre completo"
+                android:hint="@string/hintNombre"
+                android:inputType="text"
                 android:textSize="18sp" />
 
             <EditText
@@ -64,7 +65,8 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="12dp"
                 android:textSize="18sp"
-                android:hint="Rut" />
+                android:inputType="text"
+                android:hint="@string/hintRut" />
 
             <EditText
                 android:id="@+id/TxtEdad"
@@ -72,7 +74,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="12dp"
                 android:textSize="18sp"
-                android:hint="Edad"
+                android:hint="@string/hintEdad"
                 android:inputType="number" />
 
             <EditText
@@ -80,8 +82,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="12dp"
-                android:hint="Correo Electronico"
-                android:textSize="18sp" />
+                android:hint="@string/hintCorreo"
+                android:textSize="18sp"
+                android:inputType="textEmailAddress"
+                android:autofillHints="emailAddress" />
+
 
             <EditText
                 android:id="@+id/TxtTelefono"
@@ -89,8 +94,9 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="12dp"
                 android:textSize="18sp"
-                android:hint="Telefono"
-                android:inputType="phone" />
+                android:hint="@string/hintTelefono"
+                android:inputType="phone"
+                android:autofillHints="phone"/>
 
             <EditText
                 android:id="@+id/TxtDireccion"
@@ -98,15 +104,15 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="12dp"
                 android:textSize="18sp"
-                android:hint="Direccion" />
+                android:inputType="text"
+                android:hint="@string/hintDireccion" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginTop="12dp"
                 android:textSize="16sp"
-                android:text="Posee experiencia previa con mascotas?"
-
+                android:text="@string/lblExperiencia"
                 />
 
             <RadioGroup
@@ -122,7 +128,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="Sí"
+                    android:text="@string/rdbSi"
                     android:textSize="18sp" />
 
                 <RadioButton
@@ -131,7 +137,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="No"
+                    android:text="@string/rdbNo"
                     android:textSize="18sp" />
             </RadioGroup>
 
@@ -140,7 +146,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="12dp"
                 android:textSize="16sp"
-                android:text="Tiene otras mascotas?"
+                android:text="@string/lblMascotas"
                 />
 
             <RadioGroup
@@ -156,7 +162,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="Sí"
+                    android:text="@string/rdbSi"
                     android:textSize="18sp" />
 
                 <RadioButton
@@ -165,7 +171,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="No"
+                    android:text="@string/rdbNo"
                     android:textSize="18sp" />
             </RadioGroup>
 
@@ -175,7 +181,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="12dp"
                 android:textSize="18sp"
-                android:hint="N°Mascotas"
+                android:hint="@string/hintCantidad"
                 android:inputType="number"
                 android:visibility="gone" />
 
@@ -184,22 +190,22 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="12dp"
                 android:textSize="16sp"
-                android:text="Especia de preferencia"
+                android:text="@string/lblEspecie"
                 />
 
             <Spinner
                 android:id="@+id/DrpEspecie"
                 android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
-                android:textSize="18sp"
-                android:layout_height="wrap_content" />
+                android:textSize="18sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginTop="12dp"
                 android:textSize="16sp"
-                android:text="Tipo de vivienda"
+                android:text="@string/lblVivienda"
                 />
             <Spinner
                 android:id="@+id/DrpVivienda"
@@ -213,7 +219,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="12dp"
                 android:textSize="16sp"
-                android:text="Sexo de preferencia"
+                android:text="@string/lblSexo"
                 />
             <Spinner
                 android:id="@+id/DrpSexo"
@@ -227,7 +233,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="12dp"
                 android:textSize="16sp"
-                android:text="Edad buscada"
+                android:text="@string/lblEdad"
                 />
             <Spinner
                 android:id="@+id/DrpEdad"
@@ -241,7 +247,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="12dp"
                 android:textSize="16sp"
-                android:text="Porque quisiera adoptar?"
+                android:text="@string/lblRazon"
                 />
 
             <EditText
@@ -251,16 +257,37 @@
                 android:layout_marginTop="12dp"
                 android:textSize="18sp"
                 android:ems="10"
+                android:hint="@string/hintRazon"
                 android:gravity="start|top"
                 android:inputType="textMultiLine" />
 
-            <Button
-                android:id="@+id/btnEnviar"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:textSize="16sp"
-                android:text="Enviar Fromulario" />
+                android:orientation="horizontal"
+                android:padding="1dp"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/btnEnviar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:text="@string/lblEnviar" />
+
+                <Space
+                    android:layout_width="16dp"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/btnReiniciar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:text="@string/lblReiniciar" />
+            </LinearLayout>
 
 
 
