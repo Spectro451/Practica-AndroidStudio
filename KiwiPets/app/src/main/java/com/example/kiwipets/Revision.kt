@@ -81,13 +81,35 @@ class Revision : AppCompatActivity() {
         }
 
         btnconfirmar.setOnClickListener {
+            //Estrucutura
+            var mensaje = """
+                Nombre: $nombre
+                Rut: $rut
+                Edad: $edad
+                Correo: $correo
+                Telefono: $telefono
+                Direccion: $direccion
+                Experiencia: $experiencia
+                """.trimIndent()
+            if(!cantidad.isNullOrEmpty()){
+                mensaje += "\nCantidad: $cantidad"
+            }
+            mensaje += """
+                Especie: $especie
+                Vivienda: $vivienda
+                Sexo: $sexo
+                Edad: $edadMascota
+                Razon: $razon
+                """.trimIndent()
 
+            //intent para enviar
+            val intentEnvio = Intent().apply {
+                action = Intent.ACTION_SEND
+                putExtra(Intent.EXTRA_TEXT, mensaje)
+                type = "text/plain"
+            }
+            startActivity(Intent.createChooser(intentEnvio, "Enviar por:"))
         }
-
-
-
-
-
 
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->

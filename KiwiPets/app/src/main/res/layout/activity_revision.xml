@@ -61,6 +61,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/nombre"
                     android:paddingVertical="6dp"
+                    android:paddingEnd="4dp"
                     android:textSize="18sp"/>
 
                 <TextView
@@ -83,6 +84,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/rut"
                     android:paddingVertical="6dp"
+                    android:paddingEnd="4dp"
                     android:textSize="18sp"/>
 
                 <TextView
@@ -104,6 +106,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/edad"
                     android:paddingVertical="6dp"
+                    android:paddingEnd="4dp"
                     android:textSize="18sp"/>
 
                 <TextView
@@ -125,6 +128,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/correo"
                     android:paddingVertical="6dp"
+                    android:paddingEnd="4dp"
                     android:textSize="18sp"/>
 
                 <TextView
@@ -146,6 +150,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/telefono"
                     android:paddingVertical="6dp"
+                    android:paddingEnd="4dp"
                     android:textSize="18sp"/>
 
                 <TextView
@@ -166,6 +171,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/direccion"
+                    android:paddingEnd="4dp"
                     android:paddingVertical="6dp"
                     android:textSize="18sp"/>
 
@@ -187,6 +193,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/experiencia"
+                    android:paddingEnd="4dp"
                     android:paddingVertical="6dp"
                     android:textSize="18sp"/>
 
@@ -208,6 +215,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/mascotas"
+                    android:paddingEnd="4dp"
                     android:paddingVertical="6dp"
                     android:textSize="18sp"/>
 
@@ -232,6 +240,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/cantidad"
                     android:paddingVertical="6dp"
+                    android:paddingEnd="4dp"
                     android:textSize="18sp"/>
 
                 <TextView
@@ -253,6 +262,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/especie"
                     android:paddingVertical="6dp"
+                    android:paddingEnd="4dp"
                     android:textSize="18sp"/>
 
                 <TextView
@@ -274,6 +284,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/vivienda"
                     android:paddingVertical="6dp"
+                    android:paddingEnd="4dp"
                     android:textSize="18sp"/>
 
                 <TextView
@@ -295,6 +306,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/sexo"
                     android:paddingVertical="6dp"
+                    android:paddingEnd="4dp"
                     android:textSize="18sp"/>
 
                 <TextView
@@ -316,6 +328,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/edad"
                     android:paddingVertical="6dp"
+                    android:paddingEnd="4dp"
                     android:textSize="18sp"/>
 
                 <TextView
@@ -337,6 +350,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/razon"
                     android:paddingVertical="6dp"
+                    android:paddingEnd="4dp"
                     android:textSize="18sp"/>
 
                 <TextView

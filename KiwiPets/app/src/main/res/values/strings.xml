@@ -56,19 +56,19 @@
 
     //Strings para el revision
     <string name="Comprobacion">Comprobacion del formulario</string>
-    <string name="nombre">Nombre:</string>
-    <string name="rut">Rut:</string>
-    <string name="edad">Edad:</string>
-    <string name="correo">Correo:</string>
-    <string name="telefono">Telefono:</string>
-    <string name="direccion">Direccion:</string>
-    <string name="experiencia">Experiencia previa:</string>
-    <string name="mascotas">Mascotas:</string>
-    <string name="cantidad">Cantidad:</string>
-    <string name="especie">Especie:</string>
-    <string name="vivienda">Vivienda:</string>
-    <string name="sexo">Sexo:</string>
-    <string name="razon">Motivo:</string>
+    <string name="nombre">Nombre: </string>
+    <string name="rut">Rut: </string>
+    <string name="edad">Edad: </string>
+    <string name="correo">Correo: </string>
+    <string name="telefono">Telefono: </string>
+    <string name="direccion">Direccion: </string>
+    <string name="experiencia">Experiencia previa: </string>
+    <string name="mascotas">Mascotas: </string>
+    <string name="cantidad">Cantidad: </string>
+    <string name="especie">Especie: </string>
+    <string name="vivienda">Vivienda: </string>
+    <string name="sexo">Sexo: </string>
+    <string name="razon">Motivo: </string>
     <string name="confirmar">Confirmar</string>
     <string name="cancelar">Cancelar</string>
 </resources>
