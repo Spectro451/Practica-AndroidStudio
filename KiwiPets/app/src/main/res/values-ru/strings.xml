@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KiwiPets</string>
+    <string-array name="especiesArray">
+        <item>Собака</item>
+        <item>Кошка</item>
+        <item>Другое</item>
+        <item>Любое</item>
+    </string-array>
+    <string-array name="viviendaArray">
+        <item>Дом</item>
+        <item>Квартира</item>
+        <item>Дом без сада</item>
+        <item>Квартира без сада</item>
+    </string-array>
+    <string-array name="SexoArray">
+        <item>Мужской</item>
+        <item>Женский</item>
+        <item>Оба</item>
+    </string-array>
+    <string-array name="edadArray">
+        <item>Щенок</item>
+        <item>Молодой</item>
+        <item>Взрослый</item>
+    </string-array>
+
+    <string name="Titulo">KiwiPets</string>
+    <string name="Subtitulo">Форма для усыновления</string>
+    <string name="hintNombre">Полное имя</string>
+    <string name="hintRut">RUT</string>
+    <string name="hintEdad">Возраст</string>
+    <string name="hintCorreo">Эл. почта</string>
+    <string name="hintTelefono">Телефон</string>
+    <string name="hintDireccion">Адрес</string>
+    <string name="lblExperiencia">Есть ли у вас опыт ухода за животными?</string>
+    <string name="rdbSi">Да</string>
+    <string name="rdbNo">Нет</string>
+    <string name="lblMascotas">Есть ли у вас другие питомцы?</string>
+    <string name="hintCantidad">Количество питомцев</string>
+    <string name="lblEspecie">Предпочтительный вид</string>
+    <string name="lblVivienda">Тип жилья</string>
+    <string name="lblSexo">Предпочтительный пол</string>
+    <string name="lblEdad">Желаемый возраст</string>
+    <string name="lblRazon">Почему вы хотите усыновить?</string>
+    <string name="hintRazon">Я хотел бы усыновить, потому что…</string>
+    <string name="lblEnviar">Отправить форму</string>
+    <string name="lblReiniciar">Сбросить</string>
+
+    <string name="errorTxt">Это поле обязательно</string>
+    <string name="errorCantidad">Необходимо ввести значение</string>
+    <string name="errorRdb">Это поле обязательно</string>
+    <string name="errorEdad">Возраст должен быть больше 18</string>
+
+    <string name="Comprobacion">Проверка формы</string>
+    <string name="nombre">Имя: </string>
+    <string name="rut">RUT: </string>
+    <string name="edad">Возраст: </string>
+    <string name="correo">Эл. почта: </string>
+    <string name="telefono">Телефон: </string>
+    <string name="direccion">Адрес: </string>
+    <string name="experiencia">Предыдущий опыт: </string>
+    <string name="mascotas">Питомцы: </string>
+    <string name="cantidad">Количество: </string>
+    <string name="especie">Вид: </string>
+    <string name="vivienda">Жильё: </string>
+    <string name="sexo">Пол: </string>
+    <string name="razon">Причина: </string>
+    <string name="confirmar">Подтвердить</string>
+    <string name="cancelar">Отмена</string>
+</resources>

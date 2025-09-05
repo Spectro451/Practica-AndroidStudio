@@ -3,5 +3,8 @@
     <style name="Base.Theme.KiwiPets" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="android:textColor">@color/letra</item>
+        <item name="android:textColorSecondary">@color/opcional</item>
+        <item name="android:textColorHint">@color/opcional</item>
     </style>
 </resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KiwiPets</string>
+
+    <string-array name="especiesArray">
+        <item>犬</item>
+        <item>猫</item>
+        <item>その他</item>
+        <item>どれでも</item>
+    </string-array>
+    <string-array name="viviendaArray">
+        <item>家</item>
+        <item>アパート</item>
+        <item>庭のない家</item>
+        <item>庭のないアパート</item>
+    </string-array>
+    <string-array name="SexoArray">
+        <item>オス</item>
+        <item>メス</item>
+        <item>両方</item>
+    </string-array>
+    <string-array name="edadArray">
+        <item>子犬/子猫</item>
+        <item>若い</item>
+        <item>大人</item>
+    </string-array>
+
+    <string name="Titulo">KiwiPets</string>
+    <string name="Subtitulo">里親申込フォーム</string>
+    <string name="hintNombre">フルネーム</string>
+    <string name="hintRut">（チリのID）</string>
+    <string name="hintEdad">年齢</string>
+    <string name="hintCorreo">メール</string>
+    <string name="hintTelefono">電話番号</string>
+    <string name="hintDireccion">住所</string>
+    <string name="lblExperiencia">ペットの経験はありますか？</string>
+    <string name="rdbSi">はい</string>
+    <string name="rdbNo">いいえ</string>
+    <string name="lblMascotas">他にペットはいますか？</string>
+    <string name="hintCantidad">ペットの数</string>
+    <string name="lblEspecie">希望の種類</string>
+    <string name="lblVivienda">住居タイプ</string>
+    <string name="lblSexo">希望の性別</string>
+    <string name="lblEdad">希望の年齢</string>
+    <string name="lblRazon">なぜ里親になりたいですか？</string>
+    <string name="hintRazon">里親になりたい理由は…</string>
+    <string name="lblEnviar">フォーム送信</string>
+    <string name="lblReiniciar">リセット</string>
+
+    <string name="errorTxt">この項目は必須です</string>
+    <string name="errorCantidad">値を入力してください</string>
+    <string name="errorRdb">この項目は必須です</string>
+    <string name="errorEdad">18歳以上である必要があります</string>
+
+    <string name="Comprobacion">フォームの確認</string>
+    <string name="nombre">名前: </string>
+    <string name="rut">（チリのID）</string>
+    <string name="edad">年齢: </string>
+    <string name="correo">メール: </string>
+    <string name="telefono">電話番号: </string>
+    <string name="direccion">住所: </string>
+    <string name="experiencia">経験: </string>
+    <string name="mascotas">ペット: </string>
+    <string name="cantidad">数: </string>
+    <string name="especie">種類: </string>
+    <string name="vivienda">住居: </string>
+    <string name="sexo">性別: </string>
+    <string name="razon">理由: </string>
+    <string name="confirmar">確認</string>
+    <string name="cancelar">キャンセル</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KiwiPets</string>
+    <!-- mis array -->
+    <string-array name="especiesArray">
+        <item>Chien</item>
+        <item>Chat</item>
+        <item>Autre</item>
+        <item>Quelconque</item>
+    </string-array>
+    <string-array name="viviendaArray">
+        <item>Maison</item>
+        <item>Appartement</item>
+        <item>Maison sans jardin</item>
+        <item>Appartement sans jardin</item>
+    </string-array>
+    <string-array name="SexoArray">
+        <item>Masculin</item>
+        <item>Féminin</item>
+        <item>Les deux</item>
+    </string-array>
+    <string-array name="edadArray">
+        <item>Chiot</item>
+        <item>Jeune</item>
+        <item>Adulte</item>
+    </string-array>
+
+    <!-- los string del activity -->
+    <string name="Titulo">KiwiPets</string>
+    <string name="Subtitulo">Formulaire d'adoption</string>
+    <string name="hintNombre">Nom complet</string>
+    <string name="hintRut">N° d'identification</string>
+    <string name="hintEdad">Âge</string>
+    <string name="hintCorreo">Email</string>
+    <string name="hintTelefono">Téléphone</string>
+    <string name="hintDireccion">Adresse</string>
+    <string name="lblExperiencia">Avez-vous une expérience avec les animaux ?</string>
+    <string name="rdbSi">Oui</string>
+    <string name="rdbNo">Non</string>
+    <string name="lblMascotas">Avez-vous d'autres animaux ?</string>
+    <string name="hintCantidad">N° d'animaux</string>
+    <string name="lblEspecie">Espèce préférée</string>
+    <string name="lblVivienda">Type de logement</string>
+    <string name="lblSexo">Sexe préféré</string>
+    <string name="lblEdad">Âge recherché</string>
+    <string name="lblRazon">Pourquoi souhaitez-vous adopter ?</string>
+    <string name="hintRazon">Je souhaite adopter parce que…</string>
+    <string name="lblEnviar">Envoyer le formulaire</string>
+    <string name="lblReiniciar">Réinitialiser</string>
+
+    <!-- Errores -->
+    <string name="errorTxt">Ce champ est obligatoire</string>
+    <string name="errorCantidad">Vous devez entrer une valeur</string>
+    <string name="errorRdb">Ce champ est obligatoire</string>
+    <string name="errorEdad">Vous devez avoir plus de 18 ans</string>
+
+    <!-- Strings para revisión -->
+    <string name="Comprobacion">Vérification du formulaire</string>
+    <string name="nombre">Nom : </string>
+    <string name="rut">N° d\'identification : </string>
+    <string name="edad">Âge : </string>
+    <string name="correo">Email : </string>
+    <string name="telefono">Téléphone : </string>
+    <string name="direccion">Adresse : </string>
+    <string name="experiencia">Expérience préalable : </string>
+    <string name="mascotas">Animaux : </string>
+    <string name="cantidad">Quantité : </string>
+    <string name="especie">Espèce : </string>
+    <string name="vivienda">Logement : </string>
+    <string name="sexo">Sexe : </string>
+    <string name="razon">Motif : </string>
+    <string name="confirmar">Confirmer</string>
+    <string name="cancelar">Annuler</string>
+</resources>

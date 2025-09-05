@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KiwiPets</string>
+    <string-array name="especiesArray">
+        <item>Hond</item>
+        <item>Kat</item>
+        <item>Ander</item>
+        <item>Elke</item>
+    </string-array>
+    <string-array name="viviendaArray">
+        <item>Huis</item>
+        <item>Appartement</item>
+        <item>Huis zonder tuin</item>
+        <item>Appartement zonder tuin</item>
+    </string-array>
+    <string-array name="SexoArray">
+        <item>Mannelijk</item>
+        <item>Vrouwelijk</item>
+        <item>Beide</item>
+    </string-array>
+    <string-array name="edadArray">
+        <item>Puppy</item>
+        <item>Jong</item>
+        <item>Volwassen</item>
+    </string-array>
+
+    <string name="Titulo">KiwiPets</string>
+    <string name="Subtitulo">Adoptieformulier</string>
+    <string name="hintNombre">Volledige naam</string>
+    <string name="hintRut">RUT</string>
+    <string name="hintEdad">Leeftijd</string>
+    <string name="hintCorreo">E-mail</string>
+    <string name="hintTelefono">Telefoon</string>
+    <string name="hintDireccion">Adres</string>
+    <string name="lblExperiencia">Heeft u eerdere ervaring met huisdieren?</string>
+    <string name="rdbSi">Ja</string>
+    <string name="rdbNo">Nee</string>
+    <string name="lblMascotas">Heeft u andere huisdieren?</string>
+    <string name="hintCantidad">Aantal huisdieren</string>
+    <string name="lblEspecie">Voorkeursdier</string>
+    <string name="lblVivienda">Type woning</string>
+    <string name="lblSexo">Voorkeursgeslacht</string>
+    <string name="lblEdad">Gewenste leeftijd</string>
+    <string name="lblRazon">Waarom wilt u adopteren?</string>
+    <string name="hintRazon">Ik zou willen adopteren omdat…</string>
+    <string name="lblEnviar">Formulier verzenden</string>
+    <string name="lblReiniciar">Resetten</string>
+
+    <string name="errorTxt">Dit veld is verplicht</string>
+    <string name="errorCantidad">U moet een waarde invoeren</string>
+    <string name="errorRdb">Dit veld is verplicht</string>
+    <string name="errorEdad">Moet ouder zijn dan 18</string>
+
+    <string name="Comprobacion">Formuliercontrole</string>
+    <string name="nombre">Naam: </string>
+    <string name="rut">RUT: </string>
+    <string name="edad">Leeftijd: </string>
+    <string name="correo">E-mail: </string>
+    <string name="telefono">Telefoon: </string>
+    <string name="direccion">Adres: </string>
+    <string name="experiencia">Eerdere ervaring: </string>
+    <string name="mascotas">Huisdieren: </string>
+    <string name="cantidad">Aantal: </string>
+    <string name="especie">Soort: </string>
+    <string name="vivienda">Woning: </string>
+    <string name="sexo">Geslacht: </string>
+    <string name="razon">Reden: </string>
+    <string name="confirmar">Bevestigen</string>
+    <string name="cancelar">Annuleren</string>
+</resources>

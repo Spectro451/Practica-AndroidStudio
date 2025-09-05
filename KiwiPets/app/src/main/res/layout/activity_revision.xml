@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo"
     tools:context=".MainActivity">
 
     <TextView
@@ -59,10 +60,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/nombre"
                     android:paddingVertical="6dp"
                     android:paddingEnd="4dp"
-                    android:textSize="18sp"/>
+                    android:text="@string/nombre"
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/lblNombre"
@@ -82,19 +83,20 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/rut"
                     android:paddingVertical="6dp"
                     android:paddingEnd="4dp"
-                    android:textSize="18sp"/>
+                    android:text="@string/rut"
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/lblRut"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:paddingVertical="6dp"
                     android:layout_weight="1"
+                    android:paddingVertical="6dp"
                     android:textSize="18sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -104,19 +106,20 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/edad"
                     android:paddingVertical="6dp"
                     android:paddingEnd="4dp"
-                    android:textSize="18sp"/>
+                    android:text="@string/edad"
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/lblEdad"
                     android:layout_width="0dp"
-                    android:paddingVertical="6dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:paddingVertical="6dp"
                     android:textSize="18sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -126,10 +129,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/correo"
                     android:paddingVertical="6dp"
                     android:paddingEnd="4dp"
-                    android:textSize="18sp"/>
+                    android:text="@string/correo"
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/lblCorreo"
@@ -139,6 +142,7 @@
                     android:paddingVertical="6dp"
                     android:textSize="18sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -148,19 +152,20 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/telefono"
                     android:paddingVertical="6dp"
                     android:paddingEnd="4dp"
-                    android:textSize="18sp"/>
+                    android:text="@string/telefono"
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/lblTelefono"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:paddingVertical="6dp"
                     android:layout_weight="1"
+                    android:paddingVertical="6dp"
                     android:textSize="18sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -170,19 +175,20 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/direccion"
-                    android:paddingEnd="4dp"
                     android:paddingVertical="6dp"
-                    android:textSize="18sp"/>
+                    android:paddingEnd="4dp"
+                    android:text="@string/direccion"
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/lblDireccion"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:paddingVertical="6dp"
                     android:layout_weight="1"
+                    android:paddingVertical="6dp"
                     android:textSize="18sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -192,19 +198,20 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/experiencia"
-                    android:paddingEnd="4dp"
                     android:paddingVertical="6dp"
-                    android:textSize="18sp"/>
+                    android:paddingEnd="4dp"
+                    android:text="@string/experiencia"
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/lblExperiencia"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:paddingVertical="6dp"
                     android:layout_weight="1"
+                    android:paddingVertical="6dp"
                     android:textSize="18sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -214,43 +221,45 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/mascotas"
-                    android:paddingEnd="4dp"
                     android:paddingVertical="6dp"
-                    android:textSize="18sp"/>
+                    android:paddingEnd="4dp"
+                    android:text="@string/mascotas"
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/lblMascotas"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:paddingVertical="6dp"
                     android:layout_weight="1"
+                    android:paddingVertical="6dp"
                     android:textSize="18sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/layoutCantidad"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:visibility="gone"
-                android:paddingVertical="6dp">
+                android:paddingVertical="6dp"
+                android:visibility="gone">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/cantidad"
                     android:paddingVertical="6dp"
                     android:paddingEnd="4dp"
-                    android:textSize="18sp"/>
+                    android:text="@string/cantidad"
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/lblCantidad"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:paddingVertical="6dp"
                     android:layout_weight="1"
+                    android:paddingVertical="6dp"
                     android:textSize="18sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -260,19 +269,20 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/especie"
                     android:paddingVertical="6dp"
                     android:paddingEnd="4dp"
-                    android:textSize="18sp"/>
+                    android:text="@string/especie"
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/lblEspecie"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:paddingVertical="6dp"
                     android:layout_weight="1"
+                    android:paddingVertical="6dp"
                     android:textSize="18sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -282,19 +292,20 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/vivienda"
                     android:paddingVertical="6dp"
                     android:paddingEnd="4dp"
-                    android:textSize="18sp"/>
+                    android:text="@string/vivienda"
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/lblVivienda"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:paddingVertical="6dp"
                     android:layout_weight="1"
+                    android:paddingVertical="6dp"
                     android:textSize="18sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -304,19 +315,20 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/sexo"
                     android:paddingVertical="6dp"
                     android:paddingEnd="4dp"
-                    android:textSize="18sp"/>
+                    android:text="@string/sexo"
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/lblSexo"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:paddingVertical="6dp"
                     android:layout_weight="1"
+                    android:paddingVertical="6dp"
                     android:textSize="18sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -326,19 +338,20 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/edad"
                     android:paddingVertical="6dp"
                     android:paddingEnd="4dp"
-                    android:textSize="18sp"/>
+                    android:text="@string/edad"
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/lblEdadMascota"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:paddingVertical="6dp"
                     android:layout_weight="1"
+                    android:paddingVertical="6dp"
                     android:textSize="18sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -348,19 +361,20 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/razon"
                     android:paddingVertical="6dp"
                     android:paddingEnd="4dp"
-                    android:textSize="18sp"/>
+                    android:text="@string/razon"
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/lblRazon"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:paddingVertical="6dp"
                     android:layout_weight="1"
+                    android:paddingVertical="6dp"
                     android:textSize="18sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -374,21 +388,21 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:textSize="16sp"
-                    android:text="@string/confirmar" />
+                    android:text="@string/confirmar"
+                    android:textSize="16sp" />
 
                 <Space
                     android:layout_width="16dp"
                     android:layout_height="wrap_content" />
+
                 <Button
                     android:id="@+id/btnCancelar"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:textSize="16sp"
-                    android:text="@string/cancelar" />
+                    android:text="@string/cancelar"
+                    android:textSize="16sp" />
             </LinearLayout>
-
 
 
         </LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KiwiPets</string>
+    <!-- mis array -->
+    <string-array name="especiesArray">
+        <item>Cachorro</item>
+        <item>Gato</item>
+        <item>Outro</item>
+        <item>Qualquer</item>
+    </string-array>
+    <string-array name="viviendaArray">
+        <item>Casa</item>
+        <item>Apartamento</item>
+        <item>Casa sem quintal</item>
+        <item>Apartamento sem quintal</item>
+    </string-array>
+    <string-array name="SexoArray">
+        <item>Masculino</item>
+        <item>Feminino</item>
+        <item>Ambos</item>
+    </string-array>
+    <string-array name="edadArray">
+        <item>Filhote</item>
+        <item>Jovem</item>
+        <item>Adulto</item>
+    </string-array>
+
+    <!-- los string del activity -->
+    <string name="Titulo">KiwiPets</string>
+    <string name="Subtitulo">Formulário de adoção</string>
+    <string name="hintNombre">Nome completo</string>
+    <string name="hintRut">CPF</string>
+    <string name="hintEdad">Idade</string>
+    <string name="hintCorreo">Email</string>
+    <string name="hintTelefono">Telefone</string>
+    <string name="hintDireccion">Endereço</string>
+    <string name="lblExperiencia">Possui experiência prévia com pets?</string>
+    <string name="rdbSi">Sim</string>
+    <string name="rdbNo">Não</string>
+    <string name="lblMascotas">Possui outros pets?</string>
+    <string name="hintCantidad">N° de pets</string>
+    <string name="lblEspecie">Espécie preferida</string>
+    <string name="lblVivienda">Tipo de moradia</string>
+    <string name="lblSexo">Gênero preferido</string>
+    <string name="lblEdad">Idade desejada</string>
+    <string name="lblRazon">Por que deseja adotar?</string>
+    <string name="hintRazon">Gostaria de adotar porque…</string>
+    <string name="lblEnviar">Enviar formulário</string>
+    <string name="lblReiniciar">Reiniciar</string>
+
+    <!-- Errores -->
+    <string name="errorTxt">Este campo é obrigatório</string>
+    <string name="errorCantidad">Deve inserir um valor</string>
+    <string name="errorRdb">Este campo é obrigatório</string>
+    <string name="errorEdad">Deve ser maior de 18</string>
+
+    <!-- Strings para revisión -->
+    <string name="Comprobacion">Revisão do formulário</string>
+    <string name="nombre">Nome: </string>
+    <string name="rut">CPF: </string>
+    <string name="edad">Idade: </string>
+    <string name="correo">Email: </string>
+    <string name="telefono">Telefone: </string>
+    <string name="direccion">Endereço: </string>
+    <string name="experiencia">Experiência prévia: </string>
+    <string name="mascotas">Pets: </string>
+    <string name="cantidad">Quantidade: </string>
+    <string name="especie">Espécie: </string>
+    <string name="vivienda">Moradia: </string>
+    <string name="sexo">Gênero: </string>
+    <string name="razon">Motivo: </string>
+    <string name="confirmar">Confirmar</string>
+    <string name="cancelar">Cancelar</string>
+</resources>

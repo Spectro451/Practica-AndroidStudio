@@ -1,9 +1,12 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+    <!-- Base theme -->
     <style name="Base.Theme.KiwiPets" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Colores de texto globales -->
+        <item name="android:textColor">@color/letra</item>
+        <item name="android:textColorSecondary">@color/opcional</item>
+        <item name="android:textColorHint">@color/opcional</item>
     </style>
 
     <style name="Theme.KiwiPets" parent="Base.Theme.KiwiPets" />
 </resources>
+

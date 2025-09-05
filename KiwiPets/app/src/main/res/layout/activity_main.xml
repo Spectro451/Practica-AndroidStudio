@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo"
     tools:context=".MainActivity">
 
     <TextView
@@ -64,28 +65,28 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="12dp"
-                android:textSize="18sp"
+                android:hint="@string/hintRut"
                 android:inputType="text"
-                android:hint="@string/hintRut" />
+                android:textSize="18sp" />
 
             <EditText
                 android:id="@+id/TxtEdad"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="12dp"
-                android:textSize="18sp"
                 android:hint="@string/hintEdad"
-                android:inputType="number" />
+                android:inputType="number"
+                android:textSize="18sp" />
 
             <EditText
                 android:id="@+id/TxtCorreo"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="12dp"
+                android:autofillHints="emailAddress"
                 android:hint="@string/hintCorreo"
-                android:textSize="18sp"
                 android:inputType="textEmailAddress"
-                android:autofillHints="emailAddress" />
+                android:textSize="18sp" />
 
 
             <EditText
@@ -93,27 +94,26 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="12dp"
-                android:textSize="18sp"
+                android:autofillHints="phone"
                 android:hint="@string/hintTelefono"
                 android:inputType="phone"
-                android:autofillHints="phone"/>
+                android:textSize="18sp" />
 
             <EditText
                 android:id="@+id/TxtDireccion"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="12dp"
-                android:textSize="18sp"
+                android:hint="@string/hintDireccion"
                 android:inputType="text"
-                android:hint="@string/hintDireccion" />
+                android:textSize="18sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginTop="12dp"
-                android:textSize="16sp"
                 android:text="@string/lblExperiencia"
-                />
+                android:textSize="16sp" />
 
             <RadioGroup
                 android:id="@+id/RgExperiencia"
@@ -145,9 +145,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginTop="12dp"
-                android:textSize="16sp"
                 android:text="@string/lblMascotas"
-                />
+                android:textSize="16sp" />
 
             <RadioGroup
                 android:id="@+id/RgMascotas"
@@ -180,18 +179,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="12dp"
-                android:textSize="18sp"
                 android:hint="@string/hintCantidad"
                 android:inputType="number"
+                android:textSize="18sp"
                 android:visibility="gone" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginTop="12dp"
-                android:textSize="16sp"
                 android:text="@string/lblEspecie"
-                />
+                android:textSize="16sp" />
 
             <Spinner
                 android:id="@+id/DrpEspecie"
@@ -204,62 +202,61 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginTop="12dp"
-                android:textSize="16sp"
                 android:text="@string/lblVivienda"
-                />
+                android:textSize="16sp" />
+
             <Spinner
                 android:id="@+id/DrpVivienda"
                 android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
-                android:textSize="18sp"
-                android:layout_height="wrap_content" />
+                android:textSize="18sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginTop="12dp"
-                android:textSize="16sp"
                 android:text="@string/lblSexo"
-                />
+                android:textSize="16sp" />
+
             <Spinner
                 android:id="@+id/DrpSexo"
                 android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
-                android:textSize="18sp"
-                android:layout_height="wrap_content" />
+                android:textSize="18sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginTop="12dp"
-                android:textSize="16sp"
                 android:text="@string/lblEdad"
-                />
+                android:textSize="16sp" />
+
             <Spinner
                 android:id="@+id/DrpEdad"
                 android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
-                android:textSize="18sp"
-                android:layout_height="wrap_content" />
+                android:textSize="18sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginTop="12dp"
-                android:textSize="16sp"
                 android:text="@string/lblRazon"
-                />
+                android:textSize="16sp" />
 
             <EditText
                 android:id="@+id/TxtRazon"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
-                android:textSize="18sp"
                 android:ems="10"
-                android:hint="@string/hintRazon"
                 android:gravity="start|top"
-                android:inputType="textMultiLine" />
+                android:hint="@string/hintRazon"
+                android:inputType="textMultiLine"
+                android:textSize="18sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -274,21 +271,21 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:textSize="16sp"
-                    android:text="@string/lblEnviar" />
+                    android:text="@string/lblEnviar"
+                    android:textSize="16sp" />
 
                 <Space
                     android:layout_width="16dp"
                     android:layout_height="wrap_content" />
+
                 <Button
                     android:id="@+id/btnReiniciar"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:textSize="16sp"
-                    android:text="@string/lblReiniciar" />
+                    android:text="@string/lblReiniciar"
+                    android:textSize="16sp" />
             </LinearLayout>
-
 
 
         </LinearLayout>

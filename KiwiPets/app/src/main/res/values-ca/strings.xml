@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KiwiPets</string>
+
+    <string-array name="especiesArray">
+        <item>Gos</item>
+        <item>Gat</item>
+        <item>Altres</item>
+        <item>Qualsevol</item>
+    </string-array>
+    <string-array name="viviendaArray">
+        <item>Casa</item>
+        <item>Pis</item>
+        <item>Casa sense pati</item>
+        <item>Pis sense pati</item>
+    </string-array>
+    <string-array name="SexoArray">
+        <item>Masculí</item>
+        <item>Femení</item>
+        <item>Ambdós</item>
+    </string-array>
+    <string-array name="edadArray">
+        <item>Cadell</item>
+        <item>Jove</item>
+        <item>Adult</item>
+    </string-array>
+
+    <string name="Titulo">KiwiPets</string>
+    <string name="Subtitulo">Formulari d’adopció</string>
+    <string name="hintNombre">Nom complet</string>
+    <string name="hintRut">RUT</string>
+    <string name="hintEdad">Edat</string>
+    <string name="hintCorreo">Correu</string>
+    <string name="hintTelefono">Telèfon</string>
+    <string name="hintDireccion">Adreça</string>
+    <string name="lblExperiencia">Té experiència prèvia amb mascotes?</string>
+    <string name="rdbSi">Sí</string>
+    <string name="rdbNo">No</string>
+    <string name="lblMascotas">Té altres mascotes?</string>
+    <string name="hintCantidad">Nº de mascotes</string>
+    <string name="lblEspecie">Espècie preferida</string>
+    <string name="lblVivienda">Tipus d’habitatge</string>
+    <string name="lblSexo">Gènere preferit</string>
+    <string name="lblEdad">Edat buscada</string>
+    <string name="lblRazon">Per què voldria adoptar?</string>
+    <string name="hintRazon">M’agradaria adoptar perquè…</string>
+    <string name="lblEnviar">Enviar formulari</string>
+    <string name="lblReiniciar">Reiniciar</string>
+
+    <string name="errorTxt">Aquest camp és obligatori</string>
+    <string name="errorCantidad">Cal introduir un valor</string>
+    <string name="errorRdb">Aquest camp és obligatori</string>
+    <string name="errorEdad">Ha de ser major de 18</string>
+
+    <string name="Comprobacion">Comprovació del formulari</string>
+    <string name="nombre">Nom: </string>
+    <string name="rut">RUT: </string>
+    <string name="edad">Edat: </string>
+    <string name="correo">Correu: </string>
+    <string name="telefono">Telèfon: </string>
+    <string name="direccion">Adreça: </string>
+    <string name="experiencia">Experiència prèvia: </string>
+    <string name="mascotas">Mascotes: </string>
+    <string name="cantidad">Quantitat: </string>
+    <string name="especie">Espècie: </string>
+    <string name="vivienda">Habitatge: </string>
+    <string name="sexo">Gènere: </string>
+    <string name="razon">Motiu: </string>
+    <string name="confirmar">Confirmar</string>
+    <string name="cancelar">Cancelar</string>
+</resources>

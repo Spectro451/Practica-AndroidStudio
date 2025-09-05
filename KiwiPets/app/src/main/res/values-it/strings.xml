@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KiwiPets</string>
+
+    <string-array name="especiesArray">
+        <item>Cane</item>
+        <item>Gatto</item>
+        <item>Altro</item>
+        <item>Qualsiasi</item>
+    </string-array>
+    <string-array name="viviendaArray">
+        <item>Casa</item>
+        <item>Appartamento</item>
+        <item>Casa senza giardino</item>
+        <item>Appartamento senza giardino</item>
+    </string-array>
+    <string-array name="SexoArray">
+        <item>Maschile</item>
+        <item>Femminile</item>
+        <item>Entrambi</item>
+    </string-array>
+    <string-array name="edadArray">
+        <item>Cucciolo</item>
+        <item>Giovane</item>
+        <item>Adulto</item>
+    </string-array>
+
+    <string name="Titulo">KiwiPets</string>
+    <string name="Subtitulo">Modulo di adozione</string>
+    <string name="hintNombre">Nome completo</string>
+    <string name="hintRut">RUT</string>
+    <string name="hintEdad">Età</string>
+    <string name="hintCorreo">Email</string>
+    <string name="hintTelefono">Telefono</string>
+    <string name="hintDireccion">Indirizzo</string>
+    <string name="lblExperiencia">Hai esperienza precedente con animali domestici?</string>
+    <string name="rdbSi">Sì</string>
+    <string name="rdbNo">No</string>
+    <string name="lblMascotas">Hai altri animali domestici?</string>
+    <string name="hintCantidad">N° animali</string>
+    <string name="lblEspecie">Specie preferita</string>
+    <string name="lblVivienda">Tipo di abitazione</string>
+    <string name="lblSexo">Genere preferito</string>
+    <string name="lblEdad">Età desiderata</string>
+    <string name="lblRazon">Perché vorresti adottare?</string>
+    <string name="hintRazon">Vorrei adottare perché…</string>
+    <string name="lblEnviar">Invia modulo</string>
+    <string name="lblReiniciar">Reset</string>
+
+    <string name="errorTxt">Questo campo è obbligatorio</string>
+    <string name="errorCantidad">Devi inserire un valore</string>
+    <string name="errorRdb">Questo campo è obbligatorio</string>
+    <string name="errorEdad">Devi avere più di 18 anni</string>
+
+    <string name="Comprobacion">Verifica del modulo</string>
+    <string name="nombre">Nome: </string>
+    <string name="rut">RUT: </string>
+    <string name="edad">Età: </string>
+    <string name="correo">Email: </string>
+    <string name="telefono">Telefono: </string>
+    <string name="direccion">Indirizzo: </string>
+    <string name="experiencia">Esperienza precedente: </string>
+    <string name="mascotas">Animali: </string>
+    <string name="cantidad">Quantità: </string>
+    <string name="especie">Specie: </string>
+    <string name="vivienda">Abitazione: </string>
+    <string name="sexo">Genere: </string>
+    <string name="razon">Motivo: </string>
+    <string name="confirmar">Conferma</string>
+    <string name="cancelar">Annulla</string>
+</resources>
