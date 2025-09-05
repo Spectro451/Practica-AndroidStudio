@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">KiwiPets</string>
-    <!-- mis array -->
+
     <string-array name="especiesArray">
         <item>Chien</item>
         <item>Chat</item>
@@ -25,11 +25,11 @@
         <item>Adulte</item>
     </string-array>
 
-    <!-- los string del activity -->
+
     <string name="Titulo">KiwiPets</string>
-    <string name="Subtitulo">Formulaire d'adoption</string>
+    <string name="Subtitulo">Formulaire d\'adoption</string>
     <string name="hintNombre">Nom complet</string>
-    <string name="hintRut">N° d'identification</string>
+    <string name="hintRut">N° d\'identification</string>
     <string name="hintEdad">Âge</string>
     <string name="hintCorreo">Email</string>
     <string name="hintTelefono">Téléphone</string>
@@ -37,8 +37,8 @@
     <string name="lblExperiencia">Avez-vous une expérience avec les animaux ?</string>
     <string name="rdbSi">Oui</string>
     <string name="rdbNo">Non</string>
-    <string name="lblMascotas">Avez-vous d'autres animaux ?</string>
-    <string name="hintCantidad">N° d'animaux</string>
+    <string name="lblMascotas">Avez-vous d\'autres animaux ?</string>
+    <string name="hintCantidad">N° d\'animaux</string>
     <string name="lblEspecie">Espèce préférée</string>
     <string name="lblVivienda">Type de logement</string>
     <string name="lblSexo">Sexe préféré</string>
