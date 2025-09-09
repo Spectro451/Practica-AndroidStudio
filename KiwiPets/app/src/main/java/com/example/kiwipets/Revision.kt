@@ -95,6 +95,7 @@ class Revision : AppCompatActivity() {
                 mensaje += "\nCantidad: $cantidad"
             }
             mensaje += """
+                
                 Especie: $especie
                 Vivienda: $vivienda
                 Sexo: $sexo

@@ -20,7 +20,7 @@
         <item>Both</item>
     </string-array>
     <string-array name="edadArray">
-        <item>Puppy/Kitten</item>
+        <item>Puppy</item>
         <item>Young</item>
         <item>Adult</item>
     </string-array>
