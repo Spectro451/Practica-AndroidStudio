@@ -389,6 +389,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/confirmar"
+                    android:backgroundTint="@color/boton"
                     android:textSize="16sp" />
 
                 <Space
@@ -401,6 +402,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/cancelar"
+                    android:backgroundTint="@color/cancelar"
                     android:textSize="16sp" />
             </LinearLayout>
 

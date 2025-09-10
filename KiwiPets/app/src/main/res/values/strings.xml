@@ -26,9 +26,10 @@
 
     //los string del activity
     <string name="Titulo">KiwiPets</string>
+    <string name="Bienvenida">Bienvenido</string>
     <string name="Subtitulo">Formulario de adopcion</string>
     <string name="hintNombre">Nombre completo</string>
-    <string name="hintRut">Rut</string>
+    <string name="hintRut">Rut 1.111.111–1</string>
     <string name="hintEdad">Edad</string>
     <string name="hintCorreo">Correo</string>
     <string name="hintTelefono">Telefono</string>
@@ -52,6 +53,11 @@
     <string name="errorCantidad">Debe ingresar un valor</string>
     <string name="errorRdb">Este campo es obligatorio</string>
     <string name="errorEdad">Debe ser mayor de 18</string>
+    <string name="errorEdadTonta">Ingrese edad valida</string>
+    <string name="errorNombre">Ingrese un nombre valido</string>
+    <string name="errorCorreo">Ingrese un correo valido</string>
+    <string name="errorTelefono">Ingrese un telefono valido</string>
+    <string name="errorRut">Ingrese un rut valido</string>
 
 
     //Strings para el revision

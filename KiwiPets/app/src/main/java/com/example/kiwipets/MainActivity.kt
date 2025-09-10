@@ -21,8 +21,11 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
+        val nombreInicio = intent.getStringExtra("NOMBRE_INICIO")
+
         //Campos de texto
         var txtNombre = findViewById<EditText>(R.id.TxtNombre)
+        txtNombre.setText(nombreInicio)
         var txtRut = findViewById<EditText>(R.id.TxtRut)
         var txtEdad = findViewById<EditText>(R.id.TxtEdad)
         var txtCorreo = findViewById<EditText>(R.id.TxtCorreo)
@@ -127,7 +130,45 @@ class MainActivity : AppCompatActivity() {
                 txtEdad.error = getString(R.string.errorEdad)
                 txtEdad.requestFocus()
                 return@setOnClickListener
+            } else if (edad > 99) {
+                txtEdad.error = getString(R.string.errorEdadTonta)
+                txtEdad.requestFocus()
+                return@setOnClickListener
             }
+
+
+            //Nombre
+            val nombreRegex = Regex("^[a-zA-ZáéíóúÁÉÍÓÚñÑ ]+$")
+            if (!txtNombre.text.toString().matches(nombreRegex)) {
+                txtNombre.error = getString(R.string.errorNombre)
+                txtNombre.requestFocus()
+                return@setOnClickListener
+            }
+
+            //RUT
+            val rutRegex = Regex("""^\d{1,2}\.?\d{3}\.?\d{3}-[\dkK]$""")
+            if (!txtRut.text.toString().matches(rutRegex)) {
+                txtRut.error = getString(R.string.errorRut)
+                txtRut.requestFocus()
+                return@setOnClickListener
+            }
+
+            //Correo
+            val correo = txtCorreo.text.toString()
+            if (!android.util.Patterns.EMAIL_ADDRESS.matcher(correo).matches()) {
+                txtCorreo.error = getString(R.string.errorCorreo)
+                txtCorreo.requestFocus()
+                return@setOnClickListener
+            }
+
+            //Teléfono
+            val telefonoRegex = Regex("""^\+?\d{7,15}$""")
+            if (!txtTelefono.text.toString().matches(telefonoRegex)) {
+                txtTelefono.error = getString(R.string.errorTelefono)
+                txtTelefono.requestFocus()
+                return@setOnClickListener
+            }
+
 
 
             val experiencia = findViewById<RadioButton>(rgExperiencia.checkedRadioButtonId).text.toString()
@@ -141,7 +182,7 @@ class MainActivity : AppCompatActivity() {
 
             //intent
             intent.putExtra("NOMBRE", txtNombre.text.toString())
-            intent.putExtra("RUT", txtRut.text.toString())
+            intent.putExtra("RUT", txtRut.text.toString().lowercase())
             intent.putExtra("EDAD", edad.toString())
             intent.putExtra("CORREO", txtCorreo.text.toString())
             intent.putExtra("TELEFONO", txtTelefono.text.toString())

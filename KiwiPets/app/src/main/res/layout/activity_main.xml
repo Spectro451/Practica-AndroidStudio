@@ -57,7 +57,8 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="12dp"
                 android:hint="@string/hintNombre"
-                android:inputType="text"
+                android:inputType="textPersonName"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZáéíóúÁÉÍÓÚñÑ "
                 android:textSize="18sp" />
 
             <EditText
@@ -67,6 +68,7 @@
                 android:layout_marginTop="12dp"
                 android:hint="@string/hintRut"
                 android:inputType="text"
+                android:digits="0123456789kK-"
                 android:textSize="18sp" />
 
             <EditText
@@ -272,6 +274,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/lblEnviar"
+                    android:backgroundTint="@color/boton"
                     android:textSize="16sp" />
 
                 <Space
@@ -284,6 +287,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/lblReiniciar"
+                    android:backgroundTint="@color/cancelar"
                     android:textSize="16sp" />
             </LinearLayout>
 

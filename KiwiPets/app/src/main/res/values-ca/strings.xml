@@ -26,9 +26,10 @@
     </string-array>
 
     <string name="Titulo">KiwiPets</string>
+    <string name="Bienvenida">Benvingut</string>
     <string name="Subtitulo">Formulari d’adopció</string>
     <string name="hintNombre">Nom complet</string>
-    <string name="hintRut">RUT</string>
+    <string name="hintRut">RUT 1.111.111–1</string>
     <string name="hintEdad">Edat</string>
     <string name="hintCorreo">Correu</string>
     <string name="hintTelefono">Telèfon</string>
@@ -51,6 +52,12 @@
     <string name="errorCantidad">Cal introduir un valor</string>
     <string name="errorRdb">Aquest camp és obligatori</string>
     <string name="errorEdad">Ha de ser major de 18</string>
+    <string name="errorEdadTonta">Introdueix una edat vàlida</string>
+    <string name="errorNombre">Introduïu un nom vàlid</string>
+    <string name="errorCorreo">Introduïu un correu vàlid</string>
+    <string name="errorTelefono">Introduïu un telèfon vàlid</string>
+    <string name="errorRut">Introduïu un RUT vàlid</string>
+
 
     <string name="Comprobacion">Comprovació del formulari</string>
     <string name="nombre">Nom: </string>

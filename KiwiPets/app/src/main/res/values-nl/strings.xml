@@ -25,9 +25,10 @@
     </string-array>
 
     <string name="Titulo">KiwiPets</string>
+    <string name="Bienvenida">Welkom</string>
     <string name="Subtitulo">Adoptieformulier</string>
     <string name="hintNombre">Volledige naam</string>
-    <string name="hintRut">RUT</string>
+    <string name="hintRut">RUT 1.111.111–1</string>
     <string name="hintEdad">Leeftijd</string>
     <string name="hintCorreo">E-mail</string>
     <string name="hintTelefono">Telefoon</string>
@@ -50,6 +51,13 @@
     <string name="errorCantidad">U moet een waarde invoeren</string>
     <string name="errorRdb">Dit veld is verplicht</string>
     <string name="errorEdad">Moet ouder zijn dan 18</string>
+    <string name="errorEdadTonta">Voer een geldige leeftijd in</string>
+    <string name="errorNombre">Voer een geldige naam in</string>
+    <string name="errorCorreo">Voer een geldig e-mailadres in</string>
+    <string name="errorTelefono">Voer een geldig telefoonnummer in</string>
+    <string name="errorRut">Voer een geldig RUT in</string>
+
+
 
     <string name="Comprobacion">Formuliercontrole</string>
     <string name="nombre">Naam: </string>

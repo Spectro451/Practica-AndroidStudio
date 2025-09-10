@@ -26,9 +26,10 @@
     </string-array>
 
     <string name="Titulo">KiwiPets</string>
+    <string name="Bienvenida">いらっしゃいませ</string>
     <string name="Subtitulo">里親申込フォーム</string>
     <string name="hintNombre">フルネーム</string>
-    <string name="hintRut">（チリのID）</string>
+    <string name="hintRut">（チリのID） 1.111.111–1</string>
     <string name="hintEdad">年齢</string>
     <string name="hintCorreo">メール</string>
     <string name="hintTelefono">電話番号</string>
@@ -51,6 +52,12 @@
     <string name="errorCantidad">値を入力してください</string>
     <string name="errorRdb">この項目は必須です</string>
     <string name="errorEdad">18歳以上である必要があります</string>
+    <string name="errorEdadTonta">有効な年齢を入力してください</string>
+    <string name="errorNombre">有効な名前を入力してください</string>
+    <string name="errorCorreo">有効なメールアドレスを入力してください</string>
+    <string name="errorTelefono">有効な電話番号を入力してください</string>
+    <string name="errorRut">有効なRUTを入力してください</string>
+
 
     <string name="Comprobacion">フォームの確認</string>
     <string name="nombre">名前: </string>

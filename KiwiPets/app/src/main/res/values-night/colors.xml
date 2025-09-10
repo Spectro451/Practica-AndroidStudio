@@ -2,4 +2,6 @@
 <resources>
     <color name="letra">#FFFFFF</color>
     <color name="opcional">#E0E0E0</color>
+    <color name="boton">#8bd450</color>
+    <color name="cancelar">#D9534F</color>
 </resources>

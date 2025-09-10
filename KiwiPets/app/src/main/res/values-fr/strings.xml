@@ -27,9 +27,10 @@
 
 
     <string name="Titulo">KiwiPets</string>
+    <string name="Bienvenida">Accueillir</string>
     <string name="Subtitulo">Formulaire d\'adoption</string>
     <string name="hintNombre">Nom complet</string>
-    <string name="hintRut">N° d\'identification</string>
+    <string name="hintRut">N° d\'identification 1.111.111–1</string>
     <string name="hintEdad">Âge</string>
     <string name="hintCorreo">Email</string>
     <string name="hintTelefono">Téléphone</string>
@@ -53,6 +54,12 @@
     <string name="errorCantidad">Vous devez entrer une valeur</string>
     <string name="errorRdb">Ce champ est obligatoire</string>
     <string name="errorEdad">Vous devez avoir plus de 18 ans</string>
+    <string name="errorEdadTonta">Entrez un âge valide</string>
+    <string name="errorNombre">Entrez un nom valide</string>
+    <string name="errorCorreo">Entrez un e-mail valide</string>
+    <string name="errorTelefono">Entrez un numéro de téléphone valide</string>
+    <string name="errorRut">Entrez un RUT valide</string>
+
 
     <!-- Strings para revisión -->
     <string name="Comprobacion">Vérification du formulaire</string>

@@ -26,9 +26,10 @@
     </string-array>
 
     <string name="Titulo">KiwiPets</string>
+    <string name="Bienvenida">Benvenuto</string>
     <string name="Subtitulo">Modulo di adozione</string>
     <string name="hintNombre">Nome completo</string>
-    <string name="hintRut">RUT</string>
+    <string name="hintRut">RUT 1.111.111–1</string>
     <string name="hintEdad">Età</string>
     <string name="hintCorreo">Email</string>
     <string name="hintTelefono">Telefono</string>
@@ -51,6 +52,12 @@
     <string name="errorCantidad">Devi inserire un valore</string>
     <string name="errorRdb">Questo campo è obbligatorio</string>
     <string name="errorEdad">Devi avere più di 18 anni</string>
+    <string name="errorEdadTonta">Inserisci un\'età valida</string>
+    <string name="errorNombre">Inserisci un nome valido</string>
+    <string name="errorCorreo">Inserisci una email valida</string>
+    <string name="errorTelefono">Inserisci un numero di telefono valido</string>
+    <string name="errorRut">Inserisci un RUT valido</string>
+
 
     <string name="Comprobacion">Verifica del modulo</string>
     <string name="nombre">Nome: </string>

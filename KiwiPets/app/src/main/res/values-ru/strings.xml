@@ -25,9 +25,10 @@
     </string-array>
 
     <string name="Titulo">KiwiPets</string>
+    <string name="Bienvenida">Добро пожаловать</string>
     <string name="Subtitulo">Форма для усыновления</string>
     <string name="hintNombre">Полное имя</string>
-    <string name="hintRut">RUT</string>
+    <string name="hintRut">RUT 1.111.111–1</string>
     <string name="hintEdad">Возраст</string>
     <string name="hintCorreo">Эл. почта</string>
     <string name="hintTelefono">Телефон</string>
@@ -50,6 +51,12 @@
     <string name="errorCantidad">Необходимо ввести значение</string>
     <string name="errorRdb">Это поле обязательно</string>
     <string name="errorEdad">Возраст должен быть больше 18</string>
+    <string name="errorEdadTonta">Введите допустимый возраст</string>
+    <string name="errorNombre">Введите корректное имя</string>
+    <string name="errorCorreo">Введите корректный email</string>
+    <string name="errorTelefono">Введите корректный телефон</string>
+    <string name="errorRut">Введите корректный RUT</string>
+
 
     <string name="Comprobacion">Проверка формы</string>
     <string name="nombre">Имя: </string>
